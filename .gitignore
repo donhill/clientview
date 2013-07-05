@@ -5,3 +5,7 @@ src/js/collections/*.js
 src/js/models/*.js
 src/js/views/*.js
 src/js/controllers/*.js
+public/*
+.DS_Store
+.sass-cache
+npm-debug.log
