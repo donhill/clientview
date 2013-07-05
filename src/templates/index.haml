@@ -1,0 +1,82 @@
+!!! 5
+%html
+%head
+  %meta{:charset => "utf-8"}/
+  %link#mainCSS{:href => "css/layout.css", :rel => "stylesheet", :type => "text/css"}/
+  %link#mainCSS{:href => "css/text.css", :rel => "stylesheet", :type => "text/css"}/
+  %script{"data-main" => "js/main", :src => "js/libs/require/require.js"}
+  %title Client 360 View
+  %body
+%header
+  #logo
+    %img{:alt => "Lincoln Financial Group logo", :border => "0", :src => "img/logo.gif"}/
+#container
+  %section#client.deep-blue
+    .left33.height33
+      %h3 Mary Smith
+      %a.link{:href => "#"}
+        (Lead, Prospect,
+        %span.current-link 
+          Client, Former Client,Prospect)
+          %br
+      .address
+        123 Main St.
+        %br
+        Anytown, MA USA 12345
+        %br
+        %br
+        %a.link{:href =>'#'}
+          Click here to update selected information 
+    .left25.height33
+      #contact-labels
+        %span.title
+          Contact
+        %br
+        Office 
+        %br
+        Home 
+        %br
+        Cell 
+        %br
+        Email 
+      #contact-values
+        %br
+        %span.align-left
+          (508) 888-8888
+        %br
+        %span.align-left
+          (508) 888-8888
+        %br
+        %span.align-left
+          (508) 888-8888
+        %br
+        %a{:href=>'email'}
+          msmith@gmail.com
+    .left33.height33
+      #contact-labels
+        %span.title
+          Contact
+        %br
+        Office 
+        %br
+        Home 
+        %br
+        Cell 
+        %br
+        Email 
+      #contact-values
+        %br
+        %span.align-left
+          (508) 888-8888
+        %br
+        %span.align-left
+          (508) 888-8888
+        %br
+        %span.align-left
+          (508) 888-8888
+        %br
+        %a{:href=>'email'}
+          msmith@gmail.com
+  %section
+    %p
+      test

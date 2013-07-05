@@ -6,3 +6,7 @@ src/js/models/*.js
 src/js/views/*.js
 src/js/controllers/*.js
 *.swp
+public/*
+.DS_Store
+.sass-cache
+npm-debug.log
